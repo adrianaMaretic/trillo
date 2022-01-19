@@ -1,5 +1,5 @@
 :root {
-  --color-primary: rgb(31, 31, 199);
+  --color-primary: #eb2f64;
   --color-primary-light: #ff3366;
   --color-primary-dark: #ba265d;
   --color-grey-light-1: #faf9f9;
@@ -236,11 +236,11 @@ body {
   color: inherit;
   background-color: var(--color-grey-light-2);
   border: none;
-  padding: .7rem 2rem;
+  padding: 0.7rem 2rem;
   border-radius: 100px;
   width: 90%;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   margin-right: -3.25rem;
 }
 
@@ -317,7 +317,7 @@ body {
 }
 
 .user-nav__notification {
-  font-size: .8rem;
+  font-size: 0.8rem;
   height: 1.75rem;
   width: 1.75rem;
   border-radius: 50%;
@@ -363,7 +363,7 @@ body {
 }
 
 .side-nav__item:not(:last-child) {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -437,7 +437,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 1.5rem .5rem;
+    padding: 1.5rem 0.5rem;
   }
 }
 
@@ -451,7 +451,7 @@ body {
 @media only screen and (max-width: 37.5em) {
   .side-nav__icon {
     margin-right: 0;
-    margin-bottom: .7rem;
+    margin-bottom: 0.7rem;
     width: 1.5rem;
     height: 1.5rem;
   }
@@ -528,7 +528,7 @@ body {
 }
 
 .overview__icon-location {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .overview__rating {
@@ -572,13 +572,13 @@ body {
 }
 
 .overview__rating-count {
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
 @media only screen and (max-width: 37.5em) {
   .overview__rating-count {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 }
 
@@ -591,14 +591,14 @@ body {
   display: inline-block;
   background-color: transparent;
   cursor: pointer;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .btn-inline span {
   margin-left: 3px;
-  -webkit-transition: margin-left .2s;
-  transition: margin-left .2s;
+  -webkit-transition: margin-left 0.2s;
+  transition: margin-left 0.2s;
 }
 
 .btn-inline:hover {
@@ -678,7 +678,7 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .list__item::before {
@@ -686,7 +686,7 @@ body {
   display: inline-block;
   height: 1rem;
   width: 1rem;
-  margin-right: .7rem;
+  margin-right: 0.7rem;
   background-image: url(../img/chevron-thin-right.svg);
   background-size: cover;
 }
@@ -783,7 +783,7 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 
 .review__user-date {
@@ -809,24 +809,6 @@ body {
   z-index: 1;
 }
 
-.cta {
-  padding: 3.5rem 0;
-  text-align: center;
-}
-
-@media only screen and (max-width: 56.25em) {
-  .cta {
-    padding: 2.5rem 0;
-  }
-}
-
-.cta__book-now {
-  font-size: 2rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin-bottom: 2.5rem;
-}
-
 .btn {
   font-size: 1.5rem;
   font-weight: 300;
@@ -845,8 +827,8 @@ body {
   display: inline-block;
   height: 100%;
   width: 100%;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .btn__visible {
